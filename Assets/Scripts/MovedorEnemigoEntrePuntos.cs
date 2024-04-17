@@ -10,7 +10,7 @@ public class MovedorEnemigoEntrePuntos : MonoBehaviour
     public float speed = 0.05f;
     private float factorInterpolacion = 0;
 
-
+    //este script solo permite moverse en 2 puntos
     private SpriteRenderer spriteRenderer;
 
     void Start()
