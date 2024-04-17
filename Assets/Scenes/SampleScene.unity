@@ -603,6 +603,7 @@ GameObject:
   - component: {fileID: 1153460895}
   - component: {fileID: 1153460898}
   - component: {fileID: 1153460897}
+  - component: {fileID: 1153460899}
   m_Layer: 0
   m_Name: Player_Blue
   m_TagString: Player
@@ -786,6 +787,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadDesplazamiento: 10
   velocidadSalto: 5
+--- !u!114 &1153460899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153460891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70dc0ce24fa409f46a6e950c6719d9f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6602173463531413320
 PrefabInstance:
   m_ObjectHideFlags: 0
