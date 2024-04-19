@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Animation
+  m_Name: Bandera Ondeada
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: ada9323f001d3544da7219af4c1dac6d, type: 3}
+      value: {fileID: 21300000, guid: 502ad85ba21dc724d802a88c0f158f06, type: 3}
     - time: 0.083333336
-      value: {fileID: 21300000, guid: e26ccbf4f7de54b4a86ce62f290632fc, type: 3}
+      value: {fileID: 21300000, guid: 7059b09c2fdb6ac48aa1a85fdc2f7c50, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,8 +46,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: ada9323f001d3544da7219af4c1dac6d, type: 3}
-    - {fileID: 21300000, guid: e26ccbf4f7de54b4a86ce62f290632fc, type: 3}
+    - {fileID: 21300000, guid: 502ad85ba21dc724d802a88c0f158f06, type: 3}
+    - {fileID: 21300000, guid: 7059b09c2fdb6ac48aa1a85fdc2f7c50, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
