@@ -43818,6 +43818,8 @@ GameObject:
   - component: {fileID: 410238706}
   - component: {fileID: 410238705}
   - component: {fileID: 410238704}
+  - component: {fileID: 410238709}
+  - component: {fileID: 410238708}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -43973,6 +43975,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &410238708
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410238702}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &410238709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410238702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1001 &412061226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44680,6 +44723,8 @@ GameObject:
   - component: {fileID: 633554253}
   - component: {fileID: 633554252}
   - component: {fileID: 633554251}
+  - component: {fileID: 633554256}
+  - component: {fileID: 633554255}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -44835,6 +44880,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &633554255
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633554249}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &633554256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633554249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1 &656755108
 GameObject:
   m_ObjectHideFlags: 0
@@ -44848,6 +44934,8 @@ GameObject:
   - component: {fileID: 656755112}
   - component: {fileID: 656755111}
   - component: {fileID: 656755110}
+  - component: {fileID: 656755115}
+  - component: {fileID: 656755114}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -45003,6 +45091,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &656755114
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656755108}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &656755115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656755108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1001 &665125597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46227,6 +46356,8 @@ GameObject:
   - component: {fileID: 870212418}
   - component: {fileID: 870212417}
   - component: {fileID: 870212416}
+  - component: {fileID: 870212421}
+  - component: {fileID: 870212420}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -46382,6 +46513,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &870212420
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870212414}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &870212421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870212414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1001 &932282781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47526,6 +47698,8 @@ GameObject:
   - component: {fileID: 1080913274}
   - component: {fileID: 1080913273}
   - component: {fileID: 1080913272}
+  - component: {fileID: 1080913277}
+  - component: {fileID: 1080913276}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -47681,6 +47855,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1080913276
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080913270}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1080913277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080913270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1001 &1087674332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47809,6 +48024,8 @@ GameObject:
   - component: {fileID: 1103973470}
   - component: {fileID: 1103973469}
   - component: {fileID: 1103973468}
+  - component: {fileID: 1103973473}
+  - component: {fileID: 1103973472}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -47964,6 +48181,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1103973472
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103973466}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1103973473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103973466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1001 &1111652506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48861,6 +49119,8 @@ GameObject:
   - component: {fileID: 1285157287}
   - component: {fileID: 1285157286}
   - component: {fileID: 1285157285}
+  - component: {fileID: 1285157290}
+  - component: {fileID: 1285157289}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -49016,6 +49276,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1285157289
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285157283}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1285157290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285157283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1001 &1294870898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49987,6 +50288,8 @@ GameObject:
   - component: {fileID: 1586859663}
   - component: {fileID: 1586859662}
   - component: {fileID: 1586859661}
+  - component: {fileID: 1586859666}
+  - component: {fileID: 1586859665}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -50142,6 +50445,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1586859665
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586859659}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1586859666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586859659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1001 &1651436398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51134,6 +51478,8 @@ GameObject:
   - component: {fileID: 1886639914}
   - component: {fileID: 1886639913}
   - component: {fileID: 1886639912}
+  - component: {fileID: 1886639917}
+  - component: {fileID: 1886639916}
   m_Layer: 0
   m_Name: Abejorro (1)
   m_TagString: Enemigo
@@ -51289,6 +51635,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1886639916
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886639910}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1886639917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886639910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c9dc3fee07fa148bfbf39b577722d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagPlayer: Player
+  danyo: 25
 --- !u!1001 &1895379684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53073,17 +53460,17 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7122760072725543997, guid: 02b7260950cdf8a45bdfd4ccc9c4ba65, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6743218114909527064}
+      addedObject: {fileID: 6743218114909527071}
     - targetCorrespondingSourceObject: {fileID: 7122760072725543997, guid: 02b7260950cdf8a45bdfd4ccc9c4ba65, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6743218114909527063}
+      addedObject: {fileID: 6743218114909527070}
   m_SourcePrefab: {fileID: 100100000, guid: 02b7260950cdf8a45bdfd4ccc9c4ba65, type: 3}
 --- !u!1 &6743218114909527062 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7122760072725543997, guid: 02b7260950cdf8a45bdfd4ccc9c4ba65, type: 3}
   m_PrefabInstance: {fileID: 6743218114909527061}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &6743218114909527063
+--- !u!50 &6743218114909527070
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -53110,7 +53497,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6743218114909527064
+--- !u!114 &6743218114909527071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
