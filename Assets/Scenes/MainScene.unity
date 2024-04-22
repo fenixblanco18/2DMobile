@@ -623,7 +623,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 180902118}
-  - component: {fileID: 180902117}
   - component: {fileID: 180902119}
   m_Layer: 0
   m_Name: GameManager
@@ -632,20 +631,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &180902117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180902116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acdf95874b4f264393ab349804c35a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textNumeroMonedas: {fileID: 772007955}
-  numeroMonedas: 0
 --- !u!4 &180902118
 Transform:
   m_ObjectHideFlags: 0
@@ -670,11 +655,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 180902116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0628f2a71e2313940848cb7d9cdbcff6, type: 3}
+  m_Script: {fileID: 11500000, guid: 83450887e9af7fc4f83a0ccb6235120f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  labelMoneda: Coin
-  sonidoRecoleccion: {fileID: 8300000, guid: 732c01a3c172fae4ea8e6672379462b3, type: 3}
+  textNumeroMonedas: {fileID: 772007955}
+  joystickVirtual: {fileID: 828554491}
+  botonVirtualA: {fileID: 2109195568}
+  botonVirtualB: {fileID: 1348287542}
+  imageSalud: {fileID: 1475899952}
+  saludMaxima: 100
+  salud: 0
 --- !u!1 &212673004
 GameObject:
   m_ObjectHideFlags: 0
@@ -45972,6 +45962,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagPlayer: Player
   danyo: 5
+--- !u!1 &828554491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+  m_PrefabInstance: {fileID: 974050512}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &848089072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46842,7 +46837,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
   m_PrefabInstance: {fileID: 974050512}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 828554491}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
@@ -49596,6 +49591,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 989980953555421300, guid: 77efd312a74f4a84b90a6b0c220fe8fd, type: 3}
   m_PrefabInstance: {fileID: 1437918241}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1475899952 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4646768743137560477, guid: 2ffb446fa8a0d9a4683293f666891714, type: 3}
+  m_PrefabInstance: {fileID: 2207618190673844739}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1488448081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52521,6 +52527,14 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 4646768743137560477, guid: 2ffb446fa8a0d9a4683293f666891714, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4646768743137560477, guid: 2ffb446fa8a0d9a4683293f666891714, type: 3}
+      propertyPath: m_FillMethod
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4908774429930880124, guid: 2ffb446fa8a0d9a4683293f666891714, type: 3}
       propertyPath: m_Name
       value: CanvasBarraSalud
@@ -52964,7 +52978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagPlayer: Player
-  danyo: 5
+  danyo: 25
 --- !u!1001 &6743218114909527061
 PrefabInstance:
   m_ObjectHideFlags: 0
