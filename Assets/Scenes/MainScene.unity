@@ -52978,7 +52978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagPlayer: Player
-  danyo: 25
+  danyo: 20
 --- !u!1001 &6743218114909527061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53123,7 +53123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagPlayer: Player
-  danyo: 10
+  danyo: 25
 --- !u!1001 &8228829008516955460
 PrefabInstance:
   m_ObjectHideFlags: 0
